@@ -1,19 +1,19 @@
 //Synchronous callback
 
-// function f1(cb) {
-//     cb()
-// }
-// function f2() {
-//     console.log('Anuj');
-// }
-// f1(f2)
+function f1(cb) {
+    cb()
+}
+function f2() {
+    console.log('Anuj');
+}
+f1(f2)
 
 //Asynchoronous callback
 
-// setTimeout(  ()=>{
+setTimeout(  ()=>{
 
-//     console.log('Anuj');
-// },2000 )
+    console.log('Anuj');
+},2000 )
 
 //+++++++++Async And Await++++++++++++++++++++++
 
