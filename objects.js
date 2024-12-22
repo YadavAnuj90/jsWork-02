@@ -1,4 +1,4 @@
- /**  const person = {
+   const person = {
   name: "Anuj",
 
   age: 19,
@@ -7,21 +7,21 @@
 };
  console.log(typeof person);
  console.log(person);
- */
+ 
 
-//  function emp(id,name , salary){
+ function emp(id,name , salary){
 
-//     this.id = id;
-//     this.name=name;
-//     this.salary = salary
-//  }
+    this.id = id;
+    this.name=name;
+    this.salary = salary
+ }
 
-//  const emp_obj = new emp(1,"Anuj",50000)
+ const emp_obj = new emp(1,"Anuj",50000)
 
-//  console.log(emp_obj);
+ console.log(emp_obj);
 
 
-/**
+
  const person1= {
    firstName :'anuj',
    lastName : 'kumar',
@@ -55,7 +55,7 @@ console.log(student['address'].state);
 console.log(student['address']['pincode']);
 
 
-//insert new fiels
+
 
 const person = {}
 
@@ -73,7 +73,7 @@ console.log(person); //add in fields in objects:
 delete person["name"]
 
 console.log(person);
-*/
+
 
 //in built method of objects
 
